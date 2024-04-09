@@ -122,4 +122,4 @@ pg.init()
 pg.display.set_caption(c.ORIGINAL_CAPTION)
 SCREEN = pg.display.set_mode(c.SCREEN_SIZE)
 
-GFX = load_all_gfx(os.path.join("resources","graphics"))
+GFX = load_all_gfx(os.path.join(os.path.dirname(__file__), "resources","graphics"))

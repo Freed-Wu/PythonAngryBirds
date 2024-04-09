@@ -11,7 +11,10 @@ a simple implementation of angrybirds using pygame and pymunk
 * Pymunk 5.5.0
 
 # How To Start Game
-$ python main.py
+$ python -m angry_birds
+or
+$ pip install angry-birds
+$ angry-birds
 
 # How to Play
 * use mouse to drag the bird, modify the direction, then release the mouse to shoot the bird

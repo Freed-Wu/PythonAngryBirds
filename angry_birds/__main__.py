@@ -10,3 +10,7 @@ def main():
     state_dict = {c.LEVEL: level.Level()}
     game.setup_states(state_dict, c.LEVEL)
     game.main()
+
+
+if __name__=='__main__':
+    main()
